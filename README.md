@@ -141,7 +141,7 @@ This page focuses on patient survival outcomes. It includes:
 - Survival by Age Category
 - Survival by Cancer Stage
 
-[Survival Analysis](....)
+[Survival Analysis](https://github.com/Akinwale81/India-Cancer-Analysis-2022-2025/blob/main/Screenshots/Survival%20Analysis.png)
 
 ## Key Insights
 - Patient Demographics: The gender and the age analysis provides an overview of the demographic composition of the patient population. The report shows 99,938 total patients. The female gender has the highest number of patients with 67,108, which is valued at 67.15% of the total patients while the male gender with the total number of 32,830, which is valued at 32.85% 0f the total patients. The report also has the record of 54 as the average age of the recorded patients.
