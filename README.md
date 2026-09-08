@@ -128,7 +128,7 @@ This page focuses on treatment patterns and changes over time. It includes:
 - Patients by Status
 - Patients by Treatment Type
 
-[Treatment and Trends](....)
+[Treatment and Trends](https://github.com/Akinwale81/India-Cancer-Analysis-2022-2025/blob/main/Screenshots/Treatment%20and%20Trend.png)
 
 ### Survival Analysis
 This page focuses on patient survival outcomes. It includes:
