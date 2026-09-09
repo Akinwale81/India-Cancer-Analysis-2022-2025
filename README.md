@@ -5,7 +5,10 @@ Interactive Power BI dashboard analysing cancer patient data in India from 2022-
 ![India Cancer Analysis Dashboard](https://github.com/Akinwale81/India-Cancer-Analysis-2022-2025/tree/main/Screenshots)
 
 ## Project Overview
-This project analyses cancer patient data in India from 2022 to 2025 using Microsoft Power BI. The dashboard provides insights into patients distribution, treatment patterns, trends, and survival outcomes.
+
+This project analyses **99,938 cancer patient records from India covering 2022–2025** using Microsoft Power BI. The analysis explores patient demographics, cancer types, diagnosis trends, cancer stages, treatment patterns and recorded survival duration.
+The project demonstrates an end-to-end data analytics workflow, including **data cleaning and transformation with Power Query, analysis using DAX, and interactive dashboard development in Power BI**.
+
 
 ## Project Highlights
 
@@ -70,7 +73,7 @@ The dataset was prepared using Power Query before analysis. The data preparation
 After preparing the dataset Exploratory Data Analysis was performed to understand the characteristics and patterns within the data before developing the final dashboard. The EDA focused on the following:
 
 ### Patient Demographics
-The distribution of patients was explored by Gender, Age and Age Category. The gender with the most representation was the female accounting to a total number of 67,108 patients which represent 67.15% of the distribution. The maximum age of patients was 95, while the minimum age was 1. The age category had ages grouped, with age between 1 and 30 grouped as child or young, age between 31 and 60 was grouped as Adult, age between 61 and 95 was grouped as Senior. The Adult age group has the highest representation with 63.64%.
+The distribution of patients was explored by Gender, Age and Age Category. The gender with the most representation was the female accounting to a total number of 67,108 patients which represent 67.15% of the distribution. The maximum age of patients was 95, while the minimum age was 1. Patients aged 1–30 were categorised as Child/Young, those aged 31–60 as Adults, and those aged 61–95 as Seniors. The Adult age group had the highest representation with 63.64%.
 This provided an initial understanding of the demographic composition of the dataset.
 
 ### Geographical Distribution
@@ -84,7 +87,7 @@ This helped identify the distribution of patients across different cancer catego
 Treatment types were explored to understand how patients were distributed across the available treatment categories. The report shows a record number of 21,093 patients were placed under the palliative treatment type which makes the treatment type with the highest number of patients.
 
 ### Diagnosis Trends
-Patients records were examined by diagnosis year to identify changes between 2022 and 2025. Year 2024 has the highest number of patients with 25,100.
+Recorded patient volumes remained relatively stable between 2022 and 2025, with only a small difference between the highest and lowest years. 2024 recorded the highest number of patients at 25,100, while 2025 recorded the lowest at 24,857.
 
 ### Patient Status
 Patient records were taken according to recorded status, including alive and deceased categories. The report shows 63.58% were deceased, making it the category with the highest representation.
@@ -174,7 +177,7 @@ This page focuses on patient survival outcomes. It includes:
 
 - Treatment Patterns: The analysis shows how patients are distributed across the recorded treatment categories. The pattern shows a total number 21,093 patients under the Palliative care treatment type, making it the most frequently recorded treatment type, followed by surgery with 20,618 patients. Others are Chemotherapy, Targeted Therapy, Radiation, Chemo + Radiation and Surgery + Chemotherapy, as the least patients distribution.
 
-- Survival Outcome: The analysis enables comparison of average survival months across treatment type, cancer type, age categories and cancer stage. According to the report, Surgery treatment type showed the highest survival rate at approximately 22.7 months on average. The report showed Prostate cancer type with the most average survival months rate at approximately 22.6 months. The report also showed Child or Young as the category by age with the most average survival months at approximately 20.8 months. Average survival months decreases as cancer stage increased, indicating poor survival outcome among patients recorded at more advanced stages. Stage I recorded approximately 24.1 months and the average survival months decreased as the cancer grew in stages.
+- Survival Outcome: The analysis enables comparison of average survival months across treatment type, cancer type, age categories and cancer stage. According to the report, Surgery recorded the highest average survival duration at approximately 22.7 months. The report showed Prostate cancer recorded the highest average survival duration at approximately 22.6 months. The report also showed Child or Young as the category by age with the most average survival months at approximately 20.8 months. Recorded average survival duration decreased as cancer stage increased. Stage I had the highest average survival at approximately 24.1 months, with average survival declining across later stages. This observed pattern highlights the importance of examining early-stage diagnosis and survival outcomes, although the analysis does not establish a causal relationship
 
 ## Recommendations
 Based on the analysis, the following recommendations are proposed:
@@ -190,7 +193,7 @@ Based on the analysis, the following recommendations are proposed:
 - Establish Regular Performance Reporting: Rather than treating the dashboard as a one time analysis, it could be developed into a recurring reporting system. Regular reporting would allow stakeholders to monitor whether observed patterns are changing over time. A monthly, quarterly or annual reporting cycle could be established depending on data availability.
 
 ## Limitations
-The analysis has some limitation, they are:
+The analysis has some limitations:
 - The findings depend on the quality and completeness of the available dataset.
 - The analysis is primarily descriptive and does not establish causal relationships.
 - Patient representation in the dataset should not necessarily be interpreted as population-level cancer incidence.
