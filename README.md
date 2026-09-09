@@ -18,7 +18,7 @@ The main objectives of this project are to:
 - Develop an interactive Power BI dashboard.
 - Generate data driven insights and recommendations.
 
-- ## Dataset
+## Dataset
 The dataset contains cancer patient records covering the period from 2022 to 2025.
 The key variables used in the analysis include:
 
@@ -32,7 +32,7 @@ The key variables used in the analysis include:
 - **Status** - Patient outcome/status.
 - **Survival Months** - Number of months associated with patient survival.
  
-- ## Tools Used
+## Tools Used
 The following tools were used
 - Microsoft Power BI - Dashboard development and data visualisation.
 - Power Query - Data cleaning and transformation.
@@ -51,11 +51,11 @@ The dataset was prepared using Power Query before analysis. The data preparation
 - Creating a diagnosis year field.
 - Preparing age category field.
 
- ## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 After preparing the dataset Exploratory Data Analysis was performed to understand the characteristics and patterns within the data before developing the final dashboard. The EDA focused on the following:
 
 ### Patient Demographics
-The distribution of patients was explored by Gender, Age and Age Category. The gender with the most representation was the female accounting to a total number of 67,108 patients which represent 67.25% of the distribution. The maximum age of patients was 95, while the minimum age was 1. The age category had ages grouped, with age between 1 and 30 grouped as child or young, age between 31 and 60 was grouped as Adult, age between 61 and 95 was grouped as Senior. The Adult age group has the highest representation with 63.64%.
+The distribution of patients was explored by Gender, Age and Age Category. The gender with the most representation was the female accounting to a total number of 67,108 patients which represent 67.15% of the distribution. The maximum age of patients was 95, while the minimum age was 1. The age category had ages grouped, with age between 1 and 30 grouped as child or young, age between 31 and 60 was grouped as Adult, age between 61 and 95 was grouped as Senior. The Adult age group has the highest representation with 63.64%.
 This provided an initial understanding of the demographic composition of the dataset.
 
 ### Geographical Distribution
@@ -104,7 +104,7 @@ DAX was used to create dynamic measures for the dashboard. Key measures include:
 - Average Survival Months = AVERAGE('india_cancer_patients_2022_2025 Cleaned'[Survival_Months])
 - Maximum Survival Months = MAX('india_cancer_patients_2022_2025 Cleaned'[Survival_Months])
  
-This measures were used to populate KPI cards and analytical visualisations throughout the dashboard.
+These measures were used to populate KPI cards and analytical visualisations throughout the dashboard.
 
 ## Dashboard Development
 The final Power BI dashboard was organised into three analytical pages. The pages use KPI cards to present key demographic measures.
