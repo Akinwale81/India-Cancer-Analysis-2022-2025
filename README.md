@@ -7,6 +7,21 @@ Interactive Power BI dashboard analysing cancer patient data in India from 2022-
 ## Project Overview
 This project analyses cancer patient data in India from 2022 to 2025 using Microsoft Power BI. The dashboard provides insights into patients distribution, treatment patterns, trends, and survival outcomes.
 
+## Project Highlights
+
+| Metric                                  | Key Finding                                     |
+| --------------------------------------- | ----------------------------------------------- |
+| Total Patient Records                   | **99,938**                                      |
+| Largest Gender Group                    | **Female — 67.15%**                             |
+| Most Represented State                  | **Delhi**                                       |
+| Most Represented Cancer Type            | **Breast Cancer — 28.17%**                      |
+| Most Represented Cancer Stage           | **Stage III — 35.26%**                          |
+| Highest Average Survival by Treatment   | **Surgery — approximately 22.7 months**         |
+| Highest Average Survival by Cancer Type | **Prostate Cancer — approximately 22.6 months** |
+
+> **Important:** Patient counts in this dataset represent recorded cases and should not automatically be interpreted as population-level cancer incidence or prevalence.
+
+
 ## Objectives
 The main objectives of this project are to:
 - Analyse the total number of cancer patients.
