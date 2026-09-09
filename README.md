@@ -32,8 +32,8 @@ The key variables used in the analysis include:
 - **Status** - Patient outcome/status.
 - **Survival Months** - Number of months associated with patient survival.
  
-  - ## Tools Used
-  The following tools were used
+- ## Tools Used
+The following tools were used
 - Microsoft Power BI - Dashboard development and data visualisation.
 - Power Query - Data cleaning and transformation.
 - DAX - Analytical calculations and measures.
