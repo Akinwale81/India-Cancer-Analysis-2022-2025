@@ -2,7 +2,7 @@
 Interactive Power BI dashboard analysing cancer patient data in India from 2022-2025
 
 ## Dashboard Preview
-![India Cancer Analysis Dashboard](....)
+![India Cancer Analysis Dashboard](https://github.com/Akinwale81/India-Cancer-Analysis-2022-2025/tree/main/Screenshots)
 
 ## Project Overview
 This project analyses cancer patient data in India from 2022 to 2025 using Microsoft Power BI. The dashboard provides insights into patients distribution, treatment patterns, trends, and survival outcomes.
